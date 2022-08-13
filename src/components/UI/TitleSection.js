@@ -4,8 +4,8 @@ import { forwardRef } from "react";
 const HomeSection = forwardRef(({ animationDelay, children, className }, ref) => {
   return (
     <AnimatePresence>
-      <section ref={ref} className={className}>
         <motion.h1
+        ref={ref} className={className}
           initial={{ opacity: 0, x: 500 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -500 }}
@@ -13,7 +13,6 @@ const HomeSection = forwardRef(({ animationDelay, children, className }, ref) =>
         >
           {children}
         </motion.h1>
-      </section>
     </AnimatePresence>
   );
 });
