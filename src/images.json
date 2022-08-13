@@ -1,0 +1,41 @@
+{
+  "images": [
+    {
+      "name": "Canadian Goose",
+      "id": "img1",
+      "image": "images/goose.jpg",
+      "alt": "Canadian Goose"
+    },
+    {
+      "name": "Acre Graff",
+      "id": "img2",
+      "image": "images/graff.png",
+      "alt": "Acre Graffiti Writing"
+    },
+    {
+      "name": "Long Forhead",
+      "id": "img3",
+      "image": "images/long4.png",
+      "alt": "Oblong faced man"
+    },
+    {
+      "name": "Annoying Mosquito",
+      "id": "img4",
+      "image": "images/mos.png",
+      "alt": "Mosquito buzzing in someone's ear"
+    },
+    {
+      "name": "Chair Raven",
+
+      "id": "img5",
+      "image": "images/raven.jpg",
+      "alt": "Raven sitting on the back of a lawn chair."
+    },
+    {
+      "name": "是嗎",
+      "id": "img6",
+      "image": "images/zomg.png",
+      "alt": "Confused Zombie asking if something is real."
+    }
+  ]
+}

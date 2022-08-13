@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Plaster&display=swap");
+
+section {
+  min-height: 25vh;
+  font-family: Plaster;
+  font-size: 6rem;
+}
+
+.nameTag {
+  background-color: #720303;
+  color: beige;
+}
+
+.openBox{
+background-color:#720303 ;
+color: beige;
+
+}

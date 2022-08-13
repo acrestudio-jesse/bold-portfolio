@@ -1,0 +1,26 @@
+.img-modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000090;
+  position: absolute;
+  top: 0;
+}
+
+.image-container {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.disp-image {
+  max-width: 70vw;
+  max-height: 80vh;
+}
+
+.image-container label{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+}
