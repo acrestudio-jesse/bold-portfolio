@@ -3,6 +3,7 @@ import MotionLink from "../UI/MotionLink";
 import TitleSection from "../UI/TitleSection";
 import { AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
+import WebCardContainer from "../UI/webcard/WebCardContainer";
 import style from "./WebDesigner.module.css";
 
 const WebDesigner = ({ imageData }) => {
@@ -16,7 +17,7 @@ const WebDesigner = ({ imageData }) => {
           </MotionLink>
         </Link>
       </section>
-      <MotionLightbox imageData={imageData} />
+      <WebCardContainer projectData={imageData} />
     </AnimatePresence>
   );
 };

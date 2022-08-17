@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: "Plaster";
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.overlay {
+  display: inline-block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  transition: .5s;
+  position: relative;
+}
+
+.overlay:hover {
+  background: linear-gradient(#333, #33333322, #333);
+  color: beige;
+}
+
+.projectTitle {
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+.urls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  position: absolute;
+  top: 50em;
+  left: 50% ;
+  transform: translateX(-50%);
+  gap: 1rem;
+}
+
+.url {
+  font-family: 'Roboto', sans-serif;
+  color: transparent;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 3rem;
+  transition: .3s;
+}
+
+.url:visited {
+  color: transparent;
+}
+
+.overlay:hover .url:visited {
+  color: beige;
+}
+
+.overlay:hover .url {
+  background-color: #464141aa;
+  border-radius: 0.5rem;
+
+  padding: 3px;
+  color: beige;
+}
+
+.overlay:hover .url:hover {
+  background-color: #720303dd;
+  padding: 3px;
+  color: beige;
+}
+
+.tech {
+    font-family:'Roboto', sans-serif ;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+.techTag {
+  display: inline;
+}
