@@ -1,0 +1,27 @@
+form {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+textarea {
+  height: 20rem;
+  resize: none;
+}
+input,
+textarea {
+  border: none;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  background-color: aliceblue;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: aliceblue;
+}

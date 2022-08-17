@@ -1,0 +1,14 @@
+.navBtn {
+  font-family: Plaster;
+  font-size: 5rem;
+  border: none;
+  background: none;
+  margin-right: 1rem;
+  transition: background-color .3s;
+
+}
+
+.navBtn:hover {
+  border-radius: 0.5rem;
+  background-color: beige;
+}

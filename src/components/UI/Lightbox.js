@@ -2,6 +2,7 @@ import MotionThumbnail from "./modal/Thumbnail";
 import ImgModal from "./modal/ImgModal";
 import { useState, forwardRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import style from "./Lightbox.module.css"
 
 const initImg = { img: "", name: "" };
 
@@ -27,7 +28,7 @@ const Lightbox = forwardRef(({ imageData }, ref) => {
   return (
     <div ref={ref}>
       <AnimatePresence>
-        <ul>
+        <ul className={style.itemList}>
           {imageData.map((img, i) => {
             return (
               <MotionThumbnail

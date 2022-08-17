@@ -7,12 +7,28 @@ section {
 }
 
 .nameTag {
-  background-color: #720303;
+  background-color: #720303dd;
   color: beige;
+  z-index: 2;
 }
 
-.openBox{
-background-color:#720303 ;
-color: beige;
+.bgImg {
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
 
+.portLink {
+  border: none;
+  background: 0;
+  min-height: 25vh;
+  font-family: Plaster;
+  font-size: 9rem;
+  transition: 0;
+}
+
+.portLink :hover {
+  background: 0;
 }

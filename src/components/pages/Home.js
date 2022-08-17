@@ -1,48 +1,58 @@
-import { useState, useReducer } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import MotionLightbox from "../UI/Lightbox";
+import { useState, useEffect } from "react";
+import MotionLink from "../UI/MotionLink";
 import TitleSection from "../UI/TitleSection";
+import { motion, AnimatePresence } from "framer-motion";
+import NavBar from "../UI/NavBar";
 import style from "./Home.module.css";
-
-const lightBoxReducer = (state, action) => {
-  if (action.type === "illustrator" && state.open !== 1) {
-    return (state = { open: 1 });
-  } else if (action.type === "muralist" && state.open !== 2) {
-    return (state = { open: 2 });
-  } else if (action.type === "designer" && state.open !== 3) {
-    return (state = { open: 3 });
-  } else {
-    return (state = { open: null });
-  }
-};
+import { Link } from "react-router-dom";
 
 const Home = ({ imageData }) => {
-  const [lightBoxState, lightBoxDispatch] = useReducer(lightBoxReducer, {
-    open: null,
-  });
+  const [loadBGImage, setLoadBGImage] = useState(false);
 
-  console.log(lightBoxState);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoadBGImage(true);
+      console.log("Image Loaded");
+    }, 1000);
+    return clearTimeout();
+  }, []);
 
   return (
-    <AnimatePresence>
-      <motion.div>
+    <AnimatePresence exitBeforeEnter>
+      <motion.div exit={{opacity:0, x:-500}}>
+        <section className={style.nameTag}>
+          <TitleSection>Jesse Hickey</TitleSection>
+          <NavBar />
+        </section>
         <section>
-          <TitleSection className={style.nameTag}>Jesse Hickey</TitleSection>
+          <Link to="/illustrator">
+            <MotionLink className={style.portLink}>Illustrator</MotionLink>
+          </Link>
         </section>
-        <section onClick={() => lightBoxDispatch({ type: "illustrator" })}>
-          <TitleSection className={lightBoxState.open === 1 && style.openBox}>
-            Illustrator
-          </TitleSection>
-          {lightBoxState.open === 1 && <MotionLightbox imageData={imageData} />}
+        <section>
+          <Link to="/muralist">
+            <MotionLink className={style.portLink} animationDelay={0.1}>
+              Muralist
+            </MotionLink>
+          </Link>
         </section>
-        <section onClick={() => lightBoxDispatch({ type: "muralist" })}>
-          <TitleSection animationDelay={0.1}>Muralist</TitleSection>
-          {lightBoxState.open === 2 && <MotionLightbox imageData={imageData} />}
+
+        <section>
+          <Link to="/designer">
+            <MotionLink className={style.portLink} animationDelay={0.15}>
+              Designer
+            </MotionLink>
+          </Link>
         </section>
-        <section onClick={() => lightBoxDispatch({ type: "designer" })}>
-          <TitleSection animationDelay={0.15}>Designer</TitleSection>
-          {lightBoxState.open === 3 && <MotionLightbox imageData={imageData} />}
-        </section>
+        {loadBGImage && (
+          <motion.img
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
+            className={style.bgImg}
+            src={"/bg-el/robo-girl.svg"}
+          />
+        )}
       </motion.div>
     </AnimatePresence>
   );

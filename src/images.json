@@ -1,41 +1,106 @@
 {
-  "images": [
+  "illustrator": {
+    "graphic": [
+      {
+        "name": "Racer",
+        "id": "gra1",
+        "image": "/illustrator/graphic/racer.png",
+        "alt": "Man stands on the NASCAR track."
+      },
+      {
+        "name": "White Haired God",
+        "id": "gra2",
+        "image": "/illustrator/graphic/whitehairedgod.jpg",
+        "alt": "Renaissance style man."
+      },
+      {
+        "name": "Drink Lady",
+        "id": "gra3",
+        "image": "/illustrator/graphic/drinklady.png",
+        "alt": "Flying heads in a desert."
+      },
+      {
+        "name": "Dune Heads",
+        "id": "gra4",
+        "image": "/illustrator/graphic/purpleshnoz.jpg",
+        "alt": "A zombie who doesn't know what's going on."
+      },
+      {
+        "name": "Fractal Fish",
+        "id": "gra5",
+        "image": "/illustrator/graphic/Fractalfish.jpg",
+        "alt": "A fish torn to abstraction."
+      },
+      {
+        "name": "Zoner",
+        "id": "gra6",
+        "image": "/illustrator/graphic/Zoner.jpg",
+        "alt": "A boy plagued in the chemical sunset."
+      },
+      {
+        "name": "Shatter Hand",
+        "id": "gra7",
+        "image": "/illustrator/graphic/Shatterhand.jpg",
+        "alt": "A hand glitched by the machines."
+      },
+      {
+        "name": "Sunset Beauty",
+        "id": "gra8",
+        "image": "/illustrator/graphic/sunsetskygirl.png",
+        "alt": "A girl watches the sunset from the window."
+      }
+    ],
+    "traditional": []
+  },
+  "muralist": [
     {
-      "name": "Canadian Goose",
-      "id": "img1",
-      "image": "images/goose.jpg",
-      "alt": "Canadian Goose"
+      "name": "Cardinal",
+      "id": "mur1",
+      "image": "/muralist/cardinal.jpg",
+      "alt": "Yellow cardinal."
     },
     {
-      "name": "Acre Graff",
-      "id": "img2",
-      "image": "images/graff.png",
-      "alt": "Acre Graffiti Writing"
+      "name": "Dramatica",
+      "id": "mur2",
+      "image": "/muralist/drama.jpg",
+      "alt": "Faces of the Theater"
     },
     {
-      "name": "Long Forhead",
-      "id": "img3",
-      "image": "images/long4.png",
-      "alt": "Oblong faced man"
+      "name": "Facade Machine",
+      "id": "mur3",
+      "image": "/muralist/facade.jpg",
+      "alt": "A marionette looking man."
     },
     {
-      "name": "Annoying Mosquito",
-      "id": "img4",
-      "image": "images/mos.png",
-      "alt": "Mosquito buzzing in someone's ear"
+      "name": "Cash Grabber",
+      "id": "mur4",
+      "image": "/muralist/moneyman.jpg",
+      "alt": "A man who speaks of dollars."
     },
     {
-      "name": "Chair Raven",
-
-      "id": "img5",
-      "image": "images/raven.jpg",
-      "alt": "Raven sitting on the back of a lawn chair."
+      "name": "Octopus Graffiti",
+      "id": "mur5",
+      "image": "/muralist/octo.jpg",
+      "alt": "Octopus on public wall."
     },
     {
-      "name": "是嗎",
-      "id": "img6",
-      "image": "images/zomg.png",
-      "alt": "Confused Zombie asking if something is real."
+      "name": "Conflicting Ideas",
+      "id": "mur6",
+      "image": "/muralist/oldlit.jpg",
+      "alt": "Man holding two throughts for the future."
+    },
+    {
+      "name": "Stepper",
+      "id": "mur7",
+      "image": "/muralist/stepper.jpg",
+      "alt": "A boy sees his dreams in that one stair."
+    },
+    {
+      "name": "Supper Ukraine",
+      "id": "mur8",
+      "image": "/muralist/ukraine.jpg",
+      "alt": "Molotov over Ukrainian Sunflower."
     }
-  ]
+  ],
+  "webdeveloper": []
 }

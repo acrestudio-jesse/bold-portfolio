@@ -1,9 +1,11 @@
 .thumbnail {
-    box-sizing: border-box;
-  height: 15rem;
+  box-sizing: border-box;
+  height: 34.5rem;
+  width: 25vw;
+  object-fit: cover;
 }
 
 .thumbnail:hover {
-    outline: 2px solid red;
-    outline-offset: -2px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
