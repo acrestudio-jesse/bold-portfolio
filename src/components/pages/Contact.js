@@ -6,11 +6,11 @@ import MotionLink from "../UI/MotionLink";
 const Contact = () => {
   return (
     <>
-    <Link to="/"><MotionLink>Home</MotionLink></Link>
+    <Link to="/" ><MotionLink animationDelay={.5} className={style.navBtn}>Home</MotionLink></Link>
 
     <Card>
       <h3>Let's Work Together!</h3>
-      <form >
+      <form>
         <input type="text" placeholder="Email..."></input>
         <input type="text" placeholder="Subject..."></input>
         <textarea placeholder="How can I help?"></textarea>

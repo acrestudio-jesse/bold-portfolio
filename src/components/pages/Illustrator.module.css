@@ -4,10 +4,10 @@
     border: none;
     background: none;
     margin-right: 1rem;
+    transition: background-color 0.3s;
   }
   
   .navBtn:hover {
-    transition: 1s;
     border-radius: 0.5rem;
     background-color: beige;
   }

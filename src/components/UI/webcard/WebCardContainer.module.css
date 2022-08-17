@@ -22,7 +22,7 @@ body {
 }
 
 .overlay:hover {
-  background: linear-gradient(#333, #33333322, #333);
+  background: linear-gradient(#200, #44333322, #200);
   color: beige;
 }
 
