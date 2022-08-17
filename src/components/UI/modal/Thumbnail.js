@@ -1,4 +1,4 @@
-import "./Thumbnail.css";
+import style from "./Thumbnail.module.css";
 import { motion } from "framer-motion";
 import { forwardRef } from "react";
 
@@ -6,7 +6,7 @@ const Thumbnail = forwardRef(({ image, imgModalOpenHandler, id }, ref) => {
   return (
     <img
       ref={ref}
-      className="thumbnail"
+      className={style.thumbnail}
       src={image.image}
       alt={image.alt}
       onClick={imgModalOpenHandler}

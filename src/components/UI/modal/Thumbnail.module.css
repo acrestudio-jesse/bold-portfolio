@@ -3,7 +3,7 @@
   height: 34.5rem;
   width: 25vw;
   object-fit: cover;
-  transition: .2s;
+  transition: .2s outline;
 }
 
 .thumbnail:hover {
