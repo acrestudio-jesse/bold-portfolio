@@ -1,5 +1,5 @@
-import MotionThumbnail from "./modal/Thumbnail";
-import ImgModal from "./modal/ImgModal";
+import MotionThumbnail from "./Thumbnail";
+import ImgModal from "./ImgModal";
 import { useState, forwardRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import style from "./Lightbox.module.css"

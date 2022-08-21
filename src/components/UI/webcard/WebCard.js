@@ -3,12 +3,12 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 
 const WebCard = (props) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const projectCard = useRef(null);
+  const isInView = useInView(projectCard, { once: false });
 
   return (
     <div
-      ref={ref}
+      ref={projectCard}
       className={styles.card}
       style={{
         backgroundImage: `url('${props.bgImage}')`,

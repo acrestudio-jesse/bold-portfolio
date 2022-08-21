@@ -1,14 +1,13 @@
-import Home from "./components/pages/Home";
+import Home from "./components/pages/Home/Home";
 import Shop from "./components/pages/Shop/Shop";
-import Contact from "./components/pages/Contact";
-import Illustrator from "./components/pages/Illustrator";
-import Muralist from "./components/pages/Muralist";
-import WebDesigner from "./components/pages/WebDesigner";
+import Contact from "./components/pages/Contact/Contact";
+import Illustrator from "./components/pages/Portfolios/Illustrator";
+import Muralist from "./components/pages/Portfolios/Muralist";
+import WebDesigner from "./components/pages/Portfolios/WebDesigner";
 import { Routes, Route } from "react-router-dom";
 import images from "./images.json";
 
 function App() {
-  console.log(images.illustrator);
   return (
     <div className="App">
       <Routes>
