@@ -10,7 +10,6 @@ import emailjs from "@emailjs/browser";
 
 //TODO
 //1. Make RECaptcha on deploy.
-//2. Make Form Valid Handling
 
 const Contact = () => {
   const emailForm = useRef();
@@ -23,8 +22,17 @@ const Contact = () => {
     message: "",
   });
 
+  console.log(Object.values(formContent).includes(""));
+
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(Object.values(formContent));
+
+    if (Object.values(formContent).includes("")) {
+      setSentEmail("All forms must be filled!");
+      return;
+    }
+
     console.log("clicked");
 
     emailjs
@@ -33,6 +41,12 @@ const Contact = () => {
         (res) => {
           console.log(res.text);
           setSentEmail("Email sent successfully!");
+          setFormContent({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
         },
         (err) => {
           console.log(err.text);
@@ -43,12 +57,6 @@ const Contact = () => {
 
   const sentModalCloseHandler = () => {
     setSentEmail("");
-    setFormContent({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
   };
 
   useEffect(() => {
@@ -110,11 +118,9 @@ const Contact = () => {
           <input className={style.sendBtn} type="submit" value="Send"></input>
         </form>
       </Card>
-      {sentEmail &&
-        (createPortal(
-          <SentModal message={sentEmail} closeModal={sentModalCloseHandler} />
-        ),
-        document.getElementById("overlay"))}
+      {sentEmail && (
+        <SentModal message={sentEmail} closeModal={sentModalCloseHandler} />
+      )}
       {loadBGImage && (
         <motion.img
           initial={{ opacity: 0 }}

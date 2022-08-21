@@ -1,0 +1,14 @@
+.soonLabel{
+    padding: 4rem;
+    font-size: 9.6rem;
+    background-color: #720303dd;
+}
+
+.bgImg {
+    opacity: 50%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+  }
