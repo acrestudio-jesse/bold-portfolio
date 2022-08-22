@@ -25,6 +25,7 @@ TODO:
 
 1. Learn to integrate Shopify Hydrogen FW
 2. Adjust Portfolio renders to "in-view" 
+3. Create Loading Delay/Lazy Load for Portfolio
 
 FINISHED:
 
