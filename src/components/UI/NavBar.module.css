@@ -12,3 +12,11 @@
   border-radius: 0.5rem;
   background-color: beige;
 }
+
+@media screen and (min-width: 320px )
+and (max-width: 480px){
+.navBtn{
+  font-size: 4rem;
+}
+
+}

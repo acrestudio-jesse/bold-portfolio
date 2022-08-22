@@ -19,5 +19,7 @@ code {
 }
 
 html{
+  overflow-x: hidden;
+  max-height: 100%;
   font-size: 62.5%;
 }

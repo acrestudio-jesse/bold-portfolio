@@ -45,14 +45,17 @@ const Home = ({ imageData, currentItem }) => {
           </Link>
         </section>
         {loadBGImage && (
-          <motion.img key={currentItem}
-            initial={{ opacity: 0, x: 150}}
-            animate={{ opacity: 1, x: 100 }}
-            exit={{opacity: 0, x: -100}}
-            transition={{ duration: 1.5 }}
-            className={style.bgImg}
-            src={"/bg-el/robo-girl.svg"}
-          />
+          <div className={style.imageContainer}>
+            <motion.img
+              key={currentItem}
+              initial={{ opacity: 0, x: 150 }}
+              animate={{ opacity: 1, x: 100 }}
+              exit={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1.5 }}
+              className={style.bgImg}
+              src={"/bg-el/robo-girl.svg"}
+            />
+          </div>
         )}
       </div>
     </AnimatePresence>

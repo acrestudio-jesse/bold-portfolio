@@ -122,6 +122,7 @@ const Contact = () => {
         <SentModal message={sentEmail} closeModal={sentModalCloseHandler} />
       )}
       {loadBGImage && (
+        <div className={style.imageContainer}>
         <motion.img
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.5, x: 200 }}
@@ -129,6 +130,7 @@ const Contact = () => {
           className={style.bgImg}
           src={"/bg-el/FashColumn.png"}
         />
+        </div>
       )}
     </>
   );

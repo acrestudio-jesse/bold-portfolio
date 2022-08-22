@@ -12,3 +12,15 @@
     right: 0;
     bottom: 0;
   }
+
+  
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .soonLabel{
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .bgImg{
+        right: -37rem;
+    }
+}

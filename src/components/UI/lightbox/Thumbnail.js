@@ -1,11 +1,14 @@
 import style from "./Thumbnail.module.css";
-import { motion } from "framer-motion";
-import { forwardRef } from "react";
+import { motion, useInView } from "framer-motion";
+import { forwardRef, useRef } from "react";
 
-const Thumbnail = forwardRef(({ image, imgModalOpenHandler, id }, ref) => {
+const Thumbnail = forwardRef(({ image, imgModalOpenHandler, id }, thumb) => {
+const artThumb = useRef(null)
+const isInView = useInView(artThumb, {once: true})
+
   return (
     <img
-      ref={ref}
+      ref={thumb}
       className={style.thumbnail}
       src={image.image}
       alt={image.alt}

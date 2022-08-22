@@ -93,6 +93,16 @@ textarea:focus {
   box-shadow: none;
 }
 
+.imageContainer {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
 .bgImg {
   opacity: 50%;
   height: 100vh;
@@ -111,4 +121,42 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   gap: 3rem;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  .formBg {
+    position: absolute;
+    background-color: #720303dd;
+    padding: 4rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    top: 12rem;
+  }
+
+  form {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+  .bgImg {
+    opacity: 50%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    right: -20rem;
+    bottom: 0;
+  }
 }
