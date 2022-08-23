@@ -128,7 +128,7 @@ const Contact = () => {
           animate={{ opacity: 0.5, x: 200 }}
           transition={{ duration: 1.5 }}
           className={style.bgImg}
-          src={"/bg-el/FashColumn.png"}
+          src={"/bg-el/fashcolumn.webp"}
         />
         </div>
       )}

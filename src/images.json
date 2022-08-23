@@ -4,49 +4,49 @@
       {
         "name": "Racer",
         "id": "gra1",
-        "image": "/illustrator/graphic/racer.png",
+        "image": "/illustrator/graphic/racer.webp",
         "alt": "Man stands on the NASCAR track."
       },
       {
         "name": "White Haired God",
         "id": "gra2",
-        "image": "/illustrator/graphic/whitehairedgod.jpg",
+        "image": "/illustrator/graphic/whitehairedgod.webp",
         "alt": "Renaissance style man."
       },
       {
         "name": "Drink Lady",
         "id": "gra3",
-        "image": "/illustrator/graphic/drinklady.png",
+        "image": "/illustrator/graphic/drinklady.webp",
         "alt": "Flying heads in a desert."
       },
       {
         "name": "Dune Heads",
         "id": "gra4",
-        "image": "/illustrator/graphic/purpleshnoz.jpg",
-        "alt": "A zombie who doesn't know what's going on."
+        "image": "/illustrator/graphic/purpleshnozz.webp",
+        "alt": "Wise dune guardians."
       },
       {
         "name": "Fractal Fish",
         "id": "gra5",
-        "image": "/illustrator/graphic/Fractalfish.jpg",
+        "image": "/illustrator/graphic/fractalfish.webp",
         "alt": "A fish torn to abstraction."
       },
       {
         "name": "Zoner",
         "id": "gra6",
-        "image": "/illustrator/graphic/Zoner.jpg",
+        "image": "/illustrator/graphic/zoner.webp",
         "alt": "A boy plagued in the chemical sunset."
       },
       {
         "name": "Shatter Hand",
         "id": "gra7",
-        "image": "/illustrator/graphic/Shatterhand.jpg",
+        "image": "/illustrator/graphic/shatterhand.webp",
         "alt": "A hand glitched by the machines."
       },
       {
         "name": "Sunset Beauty",
         "id": "gra8",
-        "image": "/illustrator/graphic/sunsetskygirl.png",
+        "image": "/illustrator/graphic/sunsetskygirl.webp",
         "alt": "A girl watches the sunset from the window."
       }
     ],
@@ -56,49 +56,49 @@
     {
       "name": "Cardinal",
       "id": "mur1",
-      "image": "/muralist/cardinal.jpg",
+      "image": "/muralist/cardinal.webp",
       "alt": "Yellow cardinal."
     },
     {
       "name": "Dramatica",
       "id": "mur2",
-      "image": "/muralist/drama.jpg",
+      "image": "/muralist/drama.webp",
       "alt": "Faces of the Theater"
     },
     {
       "name": "Facade Machine",
       "id": "mur3",
-      "image": "/muralist/facade.jpg",
+      "image": "/muralist/facade.webp",
       "alt": "A marionette looking man."
     },
     {
       "name": "Cash Grabber",
       "id": "mur4",
-      "image": "/muralist/moneyman.jpg",
+      "image": "/muralist/moneyman.webp",
       "alt": "A man who speaks of dollars."
     },
     {
       "name": "Octopus Graffiti",
       "id": "mur5",
-      "image": "/muralist/octo.jpg",
+      "image": "/muralist/octo.webp",
       "alt": "Octopus on public wall."
     },
     {
       "name": "Conflicting Ideas",
       "id": "mur6",
-      "image": "/muralist/oldlit.jpg",
+      "image": "/muralist/oldlit.webp",
       "alt": "Man holding two throughts for the future."
     },
     {
       "name": "Stepper",
       "id": "mur7",
-      "image": "/muralist/stepper.jpg",
+      "image": "/muralist/stepper.webp",
       "alt": "A boy sees his dreams in that one stair."
     },
     {
       "name": "Supper Ukraine",
       "id": "mur8",
-      "image": "/muralist/ukraine.jpg",
+      "image": "/muralist/ukraine.webp",
       "alt": "Molotov over Ukrainian Sunflower."
     }
   ],

@@ -27,7 +27,7 @@ const Shop = () => {
           animate={{ opacity: 0.5, x: -400 }}
           transition={{ duration: 1.5 }}
           className={style.bgImg}
-          src={"/bg-el/suit.png"}
+          src={"/bg-el/suit.webp"}
         />
       )}
     </>

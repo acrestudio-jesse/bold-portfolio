@@ -7,6 +7,11 @@ React
 
 Initialized: 8/6/2022
 
+UPDATE: 8/23/2022
+
+I minified all the images so maybe the lazy loading won't be so important. Will return after some testing.
+
+
 UPDATE: 8/22/2022
 
 Finally figured out how to add an email service. This one is just a connection from EmailJS, but eventually I will build my own server.
@@ -35,6 +40,7 @@ X JSON Static Data
 X Public Image Folder
 X Rig and Implement Email responses on Contact page.
 X Make responsive for my phone.
+X Minified Images
 
 ---
 
