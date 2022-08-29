@@ -1,7 +1,6 @@
 import MotionLink from "./MotionLink";
 import { Link } from "react-router-dom";
 import style from "./NavBar.module.css";
-import { useState } from "react";
 
 const NavBar = ({curPage}) => {
 
@@ -29,6 +28,14 @@ const NavBar = ({curPage}) => {
           animationDelay={0.8}
         >
           Shop
+        </MotionLink>
+      </Link>}
+      {curPage !== "Resume" && <Link to={"/resume"}>
+        <MotionLink
+          className={style.navBtn}
+          animationDelay={0.95}
+        >
+          Resume
         </MotionLink>
       </Link>}
     </>

@@ -135,5 +135,13 @@
       "description": "Tester for JS DOM basics.",
       "tech": ["JavaScript", "CSS", "HTML", "NPM"]
     }
+  ],
+  "resume": [
+    {
+      "name": "Jesse Resume",
+      "id": "res1",
+      "image": "/resume/jthresume.webp",
+      "alt": "Web Development Resume"
+    }
   ]
 }

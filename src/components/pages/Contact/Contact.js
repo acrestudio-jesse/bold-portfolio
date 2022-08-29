@@ -4,7 +4,6 @@ import SentModal from "./SentModal";
 import NavBar from "../../UI/NavBar";
 import TitleSection from "../../UI/TitleSection";
 import { motion } from "framer-motion";
-import { createPortal } from "react-dom";
 import { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -21,8 +20,6 @@ const Contact = () => {
     subject: "",
     message: "",
   });
-
-  console.log(Object.values(formContent).includes(""));
 
   const sendEmail = (e) => {
     e.preventDefault();

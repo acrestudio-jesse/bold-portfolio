@@ -1,0 +1,10 @@
+.resContainer{
+    display: flex;
+    margin: 3rem 0;
+}
+
+.resume {
+    box-shadow: 0 1rem 1.8rem #777;
+  margin: 0 auto;
+  width: 85vw;
+}
