@@ -7,6 +7,14 @@ React
 
 Initialized: 8/6/2022
 
+UPDATE: 11/25/2022
+
+Finally came back around to this project. For the moment, I have decided to abandon the shop idea. Integrating into this site seems like it would be a waste of time due to the deprication in technology.
+
+Instead, I've decided to repurpose into a makeship portfolio/resume site while I remake a better version using more contemporary technologies like Next and TailwindCSS.
+
+Coming back shows me how much I have learned and how far I still can push myself.
+
 UPDATE: 8/23/2022
 
 I minified all the images so maybe the lazy loading won't be so important. Will return after some testing.
@@ -48,6 +56,6 @@ Learning goals:
 
 Basics of Security
 Basics of Code Testing
-Implimentation of SASS Modules
-Back End Storage
-SSR (Next.js?, Redux?)
+*Implimentation of SASS Modules*
+*Back End Storage*
+*SSR (Next.js?, Redux?)*
