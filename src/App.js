@@ -37,7 +37,7 @@ function App() {
         <Route
           exact
           path="/resume"
-          element={<Resume imageData={images.resume} />}
+          element={<Resume/>}
         />
       </Routes>
     </div>

@@ -22,18 +22,10 @@ const NavBar = ({curPage}) => {
           Contact
         </MotionLink>
       </Link>}
-      {curPage !== "Shop" && <Link to={"/shop"}>
-        <MotionLink
-          className={style.navBtn}
-          animationDelay={0.8}
-        >
-          Shop
-        </MotionLink>
-      </Link>}
       {curPage !== "Resume" && <Link to={"/resume"}>
         <MotionLink
           className={style.navBtn}
-          animationDelay={0.95}
+          animationDelay={0.8}
         >
           Resume
         </MotionLink>

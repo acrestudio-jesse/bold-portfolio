@@ -4,7 +4,7 @@ import style from "./Shop.module.css"
 import {motion} from "framer-motion"
 import { useEffect,useState } from "react";
 
-const Shop = () => {
+const Resume = () => {
   const [loadBGImage, setLoadBGImage] = useState(false);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const Shop = () => {
     <>
     <section>
       <TitleSection>Shop</TitleSection>
-      <NavBar curPage={"Shop"} />
+      <NavBar curPage={"Resume"} />
       
     </section>
     <h3 className={style.soonLabel}>Coming Soon!</h3>
@@ -34,4 +34,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Resume;
