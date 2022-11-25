@@ -1,5 +1,4 @@
 import style from "./Contact.module.css";
-import Card from "../../UI/Card";
 import SentModal from "./SentModal";
 import NavBar from "../../UI/NavBar";
 import TitleSection from "../../UI/TitleSection";
@@ -69,7 +68,7 @@ const Contact = () => {
         <NavBar curPage={"Contact"} />
       </section>
 
-      <Card className={style.formBg}>
+      <div className={style.formBg}>
         <h3 className={style.formNote}>Let's Work Together!</h3>
         <form ref={emailForm} onSubmit={sendEmail}>
           <label>Name</label>
@@ -114,7 +113,7 @@ const Contact = () => {
           />
           <input className={style.sendBtn} type="submit" value="Send"></input>
         </form>
-      </Card>
+      </div>
       {sentEmail && (
         <SentModal message={sentEmail} closeModal={sentModalCloseHandler} />
       )}

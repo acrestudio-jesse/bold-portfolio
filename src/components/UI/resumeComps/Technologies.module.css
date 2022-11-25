@@ -1,0 +1,14 @@
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elements p{
+    font-size: 1.2rem;
+}
+
+.elements svg{
+    font-size: 5rem;
+}
