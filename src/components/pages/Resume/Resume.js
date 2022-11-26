@@ -2,13 +2,14 @@ import TitleSection from "../../UI/TitleSection";
 import NavBar from "../../UI/NavBar";
 import Technologies from "../../UI/resumeComps/Technologies";
 import Bio from "../../UI/resumeComps/Bio";
+import Experience from "../../UI/resumeComps/Experience";
+import Education from "../../UI/resumeComps/Education";
 import style from "./Resume.module.css";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const Resume = () => {
   const [loadBGImage, setLoadBGImage] = useState(false);
- 
 
   useEffect(() => {
     setTimeout(() => {
@@ -23,7 +24,7 @@ const Resume = () => {
         <NavBar curPage={"Resume"} />
       </section>
       <main>
-        <Bio/>
+        <Bio />
         <div className={style.attributes}>
           <div>
             <h3>Skills</h3>
@@ -51,11 +52,9 @@ const Resume = () => {
             </ul>
           </div>
         </div>
-        <Technologies/>
-        <div>
-          <h3>Experience</h3>
-          <p></p>
-        </div>
+        <Technologies />
+        <Experience />
+        <Education />
       </main>
       {loadBGImage && (
         <motion.img

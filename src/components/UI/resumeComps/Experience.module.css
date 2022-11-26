@@ -1,0 +1,19 @@
+.entry{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.company {
+    font-size: 2.2rem;
+}
+
+.city{
+ font-size: 2rem;
+ font-style: italic;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
